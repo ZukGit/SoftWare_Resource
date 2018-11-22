@@ -22,7 +22,8 @@ https://pan.baidu.com/disk/home?adapt=pc&fr=ftw#/all?vmode=list&path=%2F%E8%BD%A
 JD-GUI中文破解版是一款功能强大的JAVA反编译工具,使用可帮助用户快速浏览重建源代码
 
 
-<img src="./zimage/software_image/jdgui.jpg">
+[<img src="./zimage/software_image/jdgui.jpg">](https://github.com/ZukGit/SoftWare_Resource/blob/master/Windows/Analysis%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6/jd-gui.zip "JD_GUI下载")
+
 
 
 ## Browser浏览器
@@ -268,6 +269,53 @@ https://www.wireshark.org/download/src/
 
 https://github.com/wireshark/wireshark
 
+
+
+##  Other其他实用软件
+
+
+
+### 迅雷破解版
+迅雷破解版
+
+[<img src="./zimage/software_image/xunlei.jpg">](https://pan.baidu.com/disk/home?adapt=pc&fr=ftw#/all?vmode=list&path=%2F%E8%BD%AF%E4%BB%B6%E5%BA%93%2FWindows%2F01.exe%E8%BD%AF%E4%BB%B6%E9%9B%86%E5%90%88%2F09.%E8%BF%85%E9%9B%B7%E7%A0%B4%E8%A7%A3%E7%89%88 "迅雷网盘下载")
+
+https://pan.baidu.com/disk/home?adapt=pc&fr=ftw#/all?vmode=list&path=%2F%E8%BD%AF%E4%BB%B6%E5%BA%93%2FWindows%2F01.exe%E8%BD%AF%E4%BB%B6%E9%9B%86%E5%90%88%2F09.%E8%BF%85%E9%9B%B7%E7%A0%B4%E8%A7%A3%E7%89%88
+
+
+---
+###  StarryNote星空便签
+星空便签是一款轻量级笔记软件，可以管理碎片信息和数据
+
+[<img src="./zimage/software_image/StarryNote.jpg">](http://www.pc6.com/softview/SoftView_405928.html "星空便签下载")
+
+
+
+**软件下载地址：**
+http://www.pc6.com/softview/SoftView_405928.html
+
+---
+### Renamer
+ReNamer是一款小巧但功能强悍的免费文件更名软件
+[<img src="./zimage/software_image/rename.jpg">](http://www.pc6.com/softview/SoftView_3511.html "renamer下载")
+
+
+
+**软件下载地址：**
+http://www.pc6.com/softview/SoftView_3511.html
+
+
+---
+### geogebra
+
+geogebra 图形计算器是一款适合于各种教育背景用户使用的动态数学软件，他拥有着能将图形，数字，函数等理科科学以图像展现出来的强大软件
+[<img src="./zimage/software_image/geogebra.jpg">](http://www.pc6.com/softview/SoftView_569737.html "geogebra下载")
+
+
+
+
+**软件下载地址：**
+http://www.pc6.com/softview/SoftView_569737.html
 
 # Linux
 
