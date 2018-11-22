@@ -3,6 +3,27 @@
 ## Analysis分析软件
 
 
+### sourceinsight
+Source Insight是一个面向项目开发的程序编辑器和代码浏览器，它拥有内置的对C/C++，C#和Java等程序的分析
+
+[<img src="./zimage/software_image/devc.jpg">](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2F%E8%BD%AF%E4%BB%B6%E5%BA%93%2FWindows%2F01.exe%E8%BD%AF%E4%BB%B6%E9%9B%86%E5%90%88%2F04.sourceinsight "sourceinsight网盘下载")
+
+
+### UnderStand
+UnderStand软件具有强大的代码静态分析功能，并且可以绘制各种流程图
+
+https://pan.baidu.com/disk/home?adapt=pc&fr=ftw#/all?vmode=list&path=%2F%E8%BD%AF%E4%BB%B6%E5%BA%93%2FWindows%2F01.exe%E8%BD%AF%E4%BB%B6%E9%9B%86%E5%90%88%2F08.UnderStand
+
+
+[<img src="./zimage/software_image/understand.jpg">](https://pan.baidu.com/disk/home?adapt=pc&fr=ftw#/all?vmode=list&path=%2F%E8%BD%AF%E4%BB%B6%E5%BA%93%2FWindows%2F01.exe%E8%BD%AF%E4%BB%B6%E9%9B%86%E5%90%88%2F08.UnderStand "UnderStand下载")
+
+
+### Jd-Gui
+JD-GUI中文破解版是一款功能强大的JAVA反编译工具,使用可帮助用户快速浏览重建源代码
+
+
+<img src="./zimage/software_image/jdgui.jpg">
+
 
 ## Browser浏览器
 
@@ -141,7 +162,34 @@ http://www.haoxg.net/ediary/download.html
 FileZilla是开放源码软件，具备所有的FTP软件功能，如：断点续传（如果服务器支持），自定义命令，站点管理等功能。
 
 
+
+
+[<img src="./zimage/software_image/FileZilla.jpg">](https://pc.qq.com/detail/6/detail_22246.html "FileZilla下载")
+
+**下载地址: **
 https://pc.qq.com/detail/6/detail_22246.html
+
+---
+
+
+
+### Clover
+Clover是给文件管理器加上 Tab标签的软件
+[<img src="./zimage/software_image/clover.jpg">](http://cn.ejie.me/ "Clover下载")
+
+**下载地址: **
+http://cn.ejie.me/
+
+
+---
+
+###  git
+git是文件版本管理工具  github仓库使用命令
+[<img src="./zimage/software_image/git.jpg">](https://pc.qq.com/detail/13/detail_22693.html "git下载")
+
+**下载地址: **
+https://pc.qq.com/detail/13/detail_22693.html
+
 
 
 ## Media多媒体
