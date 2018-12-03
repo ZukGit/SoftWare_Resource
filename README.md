@@ -6,7 +6,7 @@
 ### sourceinsight
 Source Insight是一个面向项目开发的程序编辑器和代码浏览器，它拥有内置的对C/C++，C#和Java等程序的分析
 
-[<img src="./zimage/software_image/devc.jpg">](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2F%E8%BD%AF%E4%BB%B6%E5%BA%93%2FWindows%2F01.exe%E8%BD%AF%E4%BB%B6%E9%9B%86%E5%90%88%2F04.sourceinsight "sourceinsight网盘下载")
+[<img src="./zimage/software_image/sourceinsight.jpg">](https://pan.baidu.com/disk/home#/all?vmode=list&path=%2F%E8%BD%AF%E4%BB%B6%E5%BA%93%2FWindows%2F01.exe%E8%BD%AF%E4%BB%B6%E9%9B%86%E5%90%88%2F04.sourceinsight "sourceinsight网盘下载")
 
 
 ### UnderStand
@@ -230,6 +230,17 @@ http://www.pc6.com/softview/SoftView_104475.html
 http://kankan.meitu.com/download.html
 
 ---
+
+####  PhotoZoom Pro(图片无损放大软件)
+通常的软件在放大图片时，总会降低图片的品质，而PhotoZoom Pro使用了S-Spline Max技术，这是一种拥有自动调节、高级插值算法的专利技术，可
+以尽可能地提高放大图片的品质,PhotoZoom Pro的最大特色是可以对图片进行放大而没有锯齿、较少失真。
+(可以把一张照片放大到 2TB 大小精度的软件 )
+
+<img src="./zimage/software_image/photozoom_1.jpg">
+<img src="./zimage/software_image/photozoom_2.jpg">
+**下载地址：**
+http://www.pc6.com/softview/SoftView_51017.html
+
 ### Video视频
 
 #### potplayer
@@ -316,6 +327,17 @@ geogebra 图形计算器是一款适合于各种教育背景用户使用的动�
 
 **软件下载地址：**
 http://www.pc6.com/softview/SoftView_569737.html
+
+
+
+###  腾讯电脑管家桌面整理独立版
+
+腾讯电脑管家桌面整理独立版 是小巧，使用方便的一款桌面整理工具。它可以帮助我们整理电脑桌面，让我们的桌面看起来更加整齐、清爽。
+
+[<img src="./zimage/software_image/tengxun_desk.jpg">](https://guanjia.qq.com/product/zmzl/)
+
+**软件下载地址：**
+https://guanjia.qq.com/product/zmzl/
 
 # Linux
 
