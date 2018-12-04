@@ -282,6 +282,14 @@ https://github.com/wireshark/wireshark
 
 
 
+## Office 办公
+
+
+### 万彩办公大师
+[<img src="./zimage/software_image/wancai.jpg">](http://www.wofficebox.com/?wancaiofficebox)
+http://www.wofficebox.com/?wancaiofficebox
+
+
 ##  Other其他实用软件
 
 
@@ -338,6 +346,15 @@ http://www.pc6.com/softview/SoftView_569737.html
 
 **软件下载地址：**
 https://guanjia.qq.com/product/zmzl/
+
+
+### usbview
+[<img src="./zimage/software_image/usb.jpg">](http://www.pc6.com/SoftView/SoftView_24606.html "GIt仓库")
+
+USBDeview可以列出当前连接到你的计算机上或者曾经连接到你的计算机上的所有 USB 设备。
+根据列出的设备的名称和描述，该软件能显示USB设备的串口号，设备添加的日期、生产日期以及最后连接电脑的日期以及其它信息。
+**软件下载地址：**
+http://www.pc6.com/SoftView/SoftView_24606.html
 
 # Linux
 
