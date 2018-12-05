@@ -182,6 +182,22 @@ Clover是给文件管理器加上 Tab标签的软件
 http://cn.ejie.me/
 
 
+
+---
+
+
+
+### NexusFile
+NexusFile是一款来自于韩国免费的高效实用的 Windows 文件管理器，
+类似于TotalCommander，完全可以用来替代 Windows 默认的简陋的资源管理器。
+
+您可以很容易地复制或移动文件之间的文件夹，快速浏览到最喜爱的文件夹，
+改变文件和文件夹的属性，执行先进的改名行动，管理档案和更多的工作。
+[<img src="./zimage/software_image/nexusfile_1.jpg">](http://www.pc6.com/softview/SoftView_20811.html "NexusFile下载")
+
+**下载地址: **
+http://www.pc6.com/softview/SoftView_20811.html
+
 ---
 
 ###  git
