@@ -144,6 +144,13 @@ eDiary 是一款小巧实用的电子日记本 软件已经迭代了十多年  �
 http://www.haoxg.net/ediary/download.html
 
 
+### Wunderlist
+奇妙清单Wunderlist是一款跨平台的云同步GTD工具。
+他可以用来记录一些行程、记事提醒、工作安排、任务管理等任务，功能非常强大，界面简洁明晰、操作方便快捷
+<img src="./zimage/software_image/wunderlist.jpg">
+**下载地址: **
+http://www.xue51.com/soft/8085.html
+
 ## Environment环境配置
 
 
@@ -207,7 +214,12 @@ git是文件版本管理工具  github仓库使用命令
 **下载地址: **
 https://pc.qq.com/detail/13/detail_22693.html
 
-
+### spacesniffer
+SpaceSniffer是一个可以让您硬盘中文件和文件夹的分布情况的应用程序。
+通过使用TreeMap的可视化布局，你可以直观地看到在你硬盘上大的文件和文件夹
+<img src="./zimage/software_image/spacesniff.jpg">
+**下载地址: **
+http://www.pc6.com/softview/SoftView_28428.html
 
 ## Media多媒体
 
@@ -235,6 +247,13 @@ http://www.pc6.com/softview/SoftView_104475.html
 
 ---
 
+####  GifCam
+一款非常简单好用的gif录制编辑软件
+[<img src="http://thumb11.jfcdns.com/thumb/2018-03/bce5ab346e5b2584_600_0.gif">](http://www.pc6.com/softview/SoftView_91910.html"GifCam下载地址")
+
+
+**下载地址:**
+http://www.pc6.com/softview/SoftView_91910.html
 
 #### 美图看看
 美图看看方便的图片浏览器
@@ -256,6 +275,15 @@ http://kankan.meitu.com/download.html
 <img src="./zimage/software_image/photozoom_2.jpg">
 **下载地址：**
 http://www.pc6.com/softview/SoftView_51017.html
+
+
+####   HoneyView 
+
+HoneyView 图片查看器  EXIF信息
+[<img src="./zimage/software_image/honeyview.jpg">](http://www.pc6.com/softview/SoftView_138932.html "HoneyView下载")
+
+http://www.pc6.com/softview/SoftView_138932.html
+
 
 ### Video视频
 
@@ -372,6 +400,48 @@ USBDeview可以列出当前连接到你的计算机上或者曾经连接到你�
 **软件下载地址：**
 http://www.pc6.com/SoftView/SoftView_24606.html
 
+
+### deskpin
+[<img src="./zimage/software_image/deskpin.jpg">](http://www.opdown.com/soft/99801.html DeskPin下载")
+
+指定软件位于最顶 top 层
+**软件下载地址：**
+http://www.opdown.com/soft/99801.html
+
+### Listary
+<img src="./zimage/software_image/lisary.jpg">
+Listary 是 Windows 下快速访问工具 类似 Mac下的 Afred ， 通过 double-ctrl 唤醒输入框，
+另外还有一些快速访问文件的辅助功能
+**软件下载地址：**
+http://www.cncrk.com/downinfo/228819.html
+
+### SpeedPan
+SpeedPan 是第三方百度网盘登录工具， 可屏蔽网速限制，但是可能容易被官网屏蔽。
+<img src="./zimage/software_image/speedpan.jpg">
+**软件下载地址：**
+https://www.speedpan.com/
+
+
+###  MonoCloud
+MonoCloud 是一款VPN联网工具
+<img src="./zimage/software_image/monocloud.jpg">
+**软件下载地址：**
+**git收藏**
+
+
+###  Dism++ 
+Dism++ 就把这些常用的设置集合了起来，把这一切都变得更加简单方便
+Dism++ 是一款 Windows 系统管理优化工具，它解决了我们安装、维护系统的一大痛点问题——自定义设置和优化。相当于一个 “一站式” 管理优化工具集
+<img src="./zimage/software_image/dism.jpg">
+**软件下载地址：**
+https://www.chuyu.me/zh-Hans/
+
+###  TrafficMonitor
+TrafficMonitor 电脑网速监控悬浮窗
+<img src="./zimage/software_image/trafficmonitor.jpg">
+
+**软件下载地址：**
+http://www.pc6.com/softview/SoftView_568538.html
 # Linux
 
 
@@ -413,8 +483,13 @@ http://www.pc6.com/SoftView/SoftView_24606.html
 # Android
 
 
-## 
+## VPN
 
+### 小明VPN
+
+**软件下载地址：**
+https://github.com/xm19/v/blob/master/d.md
+git收藏
 
 ## 
 
