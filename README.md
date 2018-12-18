@@ -192,6 +192,26 @@ http://cn.ejie.me/
 
 ---
 
+### QTTabBar
+QTTabBar(多窗口文件管理器) 由于Clover在高分辨率下表现不好，QTTabBar能取代 Clover的功能 在高分辨率下
+QTTabBar是一款能够让电脑资源管理器打开个标签页的工具，
+QTTabBar中文版支持win7\win8\win10操作系统，在任务栏就不会因为资源管理器占用多个窗口，
+QTTabBar还提供了一些功能插件，如文件操作工具、树型目录、显示状态栏等等！
+
+**打开QTTabBar  文件管理器》查看》选项**
+<img src="./zimage/software_image/qt1.jpg">
+<img src="./zimage/software_image/qt4.jpg">
+**添加路径到工具栏(重启时固定不变)**
+<img src="./zimage/software_image/qt2.jpg">
+
+**显示工具栏标签 文本**
+<img src="./zimage/software_image/qt3.jpg">
+**工具栏标签中删除**
+<img src="./zimage/software_image/qt5.jpg">
+
+
+**下载地址: **
+http://www.pc6.com/softview/SoftView_633434.html
 
 
 ### NexusFile
