@@ -462,6 +462,13 @@ TrafficMonitor 电脑网速监控悬浮窗
 
 **软件下载地址：**
 http://www.pc6.com/softview/SoftView_568538.html
+
+### MacType 字体
+MacType 字体  肉眼舒服的字体 仿照IOS Mac
+<img src="./zimage/software_image/mactype.jpg">
+
+**软件下载地址：**
+https://www.mactype.net/
 # Linux
 
 
