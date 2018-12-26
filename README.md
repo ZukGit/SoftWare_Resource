@@ -518,8 +518,18 @@ https://www.mactype.net/
 https://github.com/xm19/v/blob/master/d.md
 git收藏
 
-## 
+## Tool
 
+### Magiciperf
+```
+Magiciperf 是一款在安卓手机端运行 测试 wifi吞吐率的APK 。 结合 Iperf3 PC软件使用
+
+命令:  -s -i 1 -p 5555
+
+```
+<img src="./zimage/software_image/magiciperf.jpg" hight="50%" width="50%">
+**软件下载地址：**
+git收藏
 
 ## 
 
