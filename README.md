@@ -83,6 +83,22 @@ pycharm  是 python语言开发集成环境
 http://www.cncrk.com/downinfo/241055.html
 
 
+
+### ADB工具
+```
+ADB 工具 for windows；
+
+ADB_1_0_26_windows
+ADB_1_0_31_windows
+ADB_1_0_32_windows
+ADB_1_0_36_windows
+ADB_1_0_39_windows
+ADB_1_0_40_windows
+
+```
+**下载地址:**
+git收藏
+
 ## Database数据库
 
 ###  SQLite Expert
@@ -530,6 +546,7 @@ Magiciperf 是一款在安卓手机端运行 测试 wifi吞吐率的APK 。 结�
 <img src="./zimage/software_image/magiciperf.jpg" hight="50%" width="50%">
 **软件下载地址：**
 git收藏
+https://github.com/ZukGit/SoftWare_Resource/blob/master/Android/iperf/magic_iperf.apk
 
 ## 
 
