@@ -206,6 +206,23 @@ http://cn.ejie.me/
 
 
 
+
+### Droplt
+```
+Droplt是一款可以将文件分类管理的工具，这款软件操作界面比较简单，
+打开以后可以自动显示处理的图标，例如您选择媒体文件分类，
+软件就自动切换的“音乐图标”如果您选择图片分类，那么软件也会显示“照片图标”
+这样您就可以知道自己正在执行的任务类型了；Droplt(文件分类管理)支持六种分类方式，
+可以选择压缩器、照片陈列室制作器等工具帮助您完成分类工作，
+也可以利用扫描的功能将一个文件夹里面的资源按照一定的规则分类！
+```
+[<img src="./zimage/software_image/droplt.jpg">](http://www.pc0359.cn/downinfo/86096.html "Droplt下载")
+
+**下载地址: **
+http://www.pc0359.cn/downinfo/86096.html
+
+
+
 ---
 
 ### QTTabBar
@@ -498,6 +515,16 @@ MacType 字体  肉眼舒服的字体 仿照IOS Mac
 
 **软件下载地址：**
 https://www.mactype.net/
+
+
+
+###  Cisco AnyConnect 
+Cisco AnyConnect  是一款思科出品 VPN联网工具
+<img src="./zimage/software_image/anyconnect.jpg">
+**软件下载地址：**
+**git收藏**
+
+
 # Linux
 
 
