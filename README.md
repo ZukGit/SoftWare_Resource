@@ -534,7 +534,205 @@ Cisco AnyConnect  是一款思科出品 VPN联网工具
 ## 
 
 
-## 
+## zsh
+
+### 最初主目录 ~列表
+```
+pwd
+/home/zukgit
+
+
+ls -la
+total 8
+drwxr-xr-x 1 zukgit zukgit 4096 Jan  8 12:50 .
+drwxr-xr-x 1 root   root   4096 Jan  8 12:43 ..
+-rw------- 1 zukgit zukgit   23 Jan  8 12:50 .bash_history
+-rw-r--r-- 1 zukgit zukgit  220 Jan  8 12:43 .bash_logout
+-rw-r--r-- 1 zukgit zukgit 3771 Jan  8 12:43 .bashrc
+-rw-r--r-- 1 zukgit zukgit  807 Jan  8 12:43 .profile
+-rw-r--r-- 1 zukgit zukgit    0 Jan  8 12:50 .sudo_as_admin_successful
+
+```
+
+
+### root权限安装 zsh
+```
+1.安装zsh                         sudo apt-get install zsh                     
+2.安装oh-my-zsh                   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+3.普通用户下安装antigen            curl -L git.io/antigen > ~/antigen.zsh
+4.执行 antigen生成 .antigen文件    source     ~/antigen.zsh
+5.执行命令                         antigen use oh-my-zsh
+
+
+6. 编辑 ~/.zshrc 文件
+
+###############客制化开始#################
+
+##############1.alias 别名设置区域##########
+alias  cls="clear"
+alias  findm="grep -rnws --include='*.[mb][kp]' 'LOCAL_MODULE\|LOCAL_PACKAGE_NAME\|name:'"
+alias  cdd="cd /mnt/c/Users/aaa/Desktop"                   
+alias  cddd="cd /mnt/d/"
+alias  la="ls -la"
+
+
+##############2. antigen设置区域##########
+chmod -R 755 ~/ 
+chmod -R 755 ~/.antigen   ##  避免zsh compinit: insecure directories 警告
+source     ~/antigen.zsh  ## 执行antigen 用于初始化 antigen的环境
+
+## 通过 antigen 加载 oh-my-zsh库
+antigen use oh-my-zsh
+
+## 加载原版oh-my-zsh中的功能
+antigen bundle git
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
+antigen bundle command-not-found
+
+antigen bundle zsh-users/zsh-syntax-highlighting  #语法高亮功能
+antigen bundle zsh-users/zsh-autosuggestions   #代码提示功能
+antigen bundle zsh-users/zsh-completions   #自动补全功能
+antigen theme robbyrussell/oh-my-zsh themes/dallas
+antigen apply     # 保存当前设置 并进行生效设置
+
+##################3. ls 命令配色
+LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=31;01:do=31;01:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;37:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=31;01:*.jpeg=31;01:*.mjpg=31;01:*.mjpeg=31;01:*.gif=31;01:*.bmp=31;01:*.pbm=31;01:*.pgm=31;01:*.ppm=31;01:*.tga=31;01:*.xbm=31;01:*.xpm=31;01:*.tif=31;01:*.tiff=31;01:*.png=31;01:*.svg=31;01:*.svgz=31;01:*.mng=31;01:*.pcx=31;01:*.mov=31;01:*.mpg=31;01:*.mpeg=31;01:*.m2v=31;01:*.mkv=31;01:*.webm=31;01:*.ogm=31;01:*.mp4=31;01:*.m4v=31;01:*.mp4v=31;01:*.vob=31;01:*.qt=31;01:*.nuv=31;01:*.wmv=31;01:*.asf=31;01:*.rm=31;01:*.rmvb=31;01:*.flc=31;01:*.avi=31;01:*.fli=31;01:*.flv=31;01:*.gl=31;01:*.dl=31;01:*.xcf=31;01:*.xwd=31;01:*.yuv=31;01:*.cgm=31;01:*.emf=31;01:*.ogv=31;01:*.ogx=31;01:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+
+PS1="[zukgit-\`pwd\`]"
+###############客制化结束#################
+
+
+
+
+7. 添加权限 【每次修改~/.zshrc 都需要另外执行】                      chmod -R 755 ~/.antigen && chmod -R 755 ~/
+
+
+
+
+
+
+8. 背景颜色
+RGB 
+R: 88
+G: 86
+L: 185
+
+
+
+```
+#### 执行操作后主目录
+```
+1.2.3 步骤后
+ ls -la
+total 236
+drwxr-xr-x 1 zukgit zukgit  4096 Jan  8 14:43 .
+drwxr-xr-x 1 root   root    4096 Jan  8 12:43 ..
+-rw------- 1 zukgit zukgit    23 Jan  8 12:50 .bash_history
+-rw-r--r-- 1 zukgit zukgit   220 Jan  8 12:43 .bash_logout
+-rw-r--r-- 1 zukgit zukgit  3771 Jan  8 12:43 .bashrc
+drwxr-xr-x 1 zukgit zukgit  4096 Jan  8 14:41 .oh-my-zsh        //【新增】
+-rw-r--r-- 1 zukgit zukgit   807 Jan  8 12:43 .profile
+-rw-r--r-- 1 zukgit zukgit     0 Jan  8 12:50 .sudo_as_admin_successful
+-rw-r--r-- 1 zukgit zukgit 42275 Jan  8 14:41 .zcompdump         //【新增】
+-rw-r--r-- 1 zukgit zukgit 42275 Jan  8 14:41 .zcompdump-DESKTOP-CN5OQSF-5.4.2
+-rw------- 1 zukgit zukgit   153 Jan  8 14:43 .zsh_history    //【新增】
+-rw-r--r-- 1 zukgit zukgit  3404 Jan  8 14:41 .zshrc          //【新增】
+-rw-r--r-- 1 zukgit zukgit 58503 Jan  8 14:42 antigen.zsh      //【新增】
+
+
+4.  source     ~/antigen.zsh
+4.步骤后
+
+
+ls -la
+total 236
+drwxr-xr-x 1 zukgit zukgit  4096 Jan  8 14:45 .
+drwxr-xr-x 1 root   root    4096 Jan  8 12:43 ..
+drwxr-xr-x 1 zukgit zukgit  4096 Jan  8 14:45 .antigen   // 【新增目录】 包含有bundle目录
+-rw------- 1 zukgit zukgit    23 Jan  8 12:50 .bash_history
+-rw-r--r-- 1 zukgit zukgit   220 Jan  8 12:43 .bash_logout
+-rw-r--r-- 1 zukgit zukgit  3771 Jan  8 12:43 .bashrc
+drwxr-xr-x 1 zukgit zukgit  4096 Jan  8 14:41 .oh-my-zsh
+-rw-r--r-- 1 zukgit zukgit   807 Jan  8 12:43 .profile
+-rw-r--r-- 1 zukgit zukgit     0 Jan  8 12:50 .sudo_as_admin_successful
+-rw-r--r-- 1 zukgit zukgit 42275 Jan  8 14:41 .zcompdump
+-rw-r--r-- 1 zukgit zukgit 42275 Jan  8 14:41 .zcompdump-DESKTOP-CN5OQSF-5.4.2
+-rw------- 1 zukgit zukgit   215 Jan  8 14:45 .zsh_history
+-rw-r--r-- 1 zukgit zukgit  3404 Jan  8 14:41 .zshrc
+-rw-r--r-- 1 zukgit zukgit 58503 Jan  8 14:42 antigen.zsh
+
+
+```
+#### ls 命令显示的颜色
+```
+echo $LS_COLORS    // ls显示的文件名的颜色、是变量LS_COLORS控制
+
+
+LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=31;01:do=31;01:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=31;01:*.jpeg=31;01:*.mjpg=31;01:*.mjpeg=31;01:*.gif=31;01:*.bmp=31;01:*.pbm=31;01:*.pgm=31;01:*.ppm=31;01:*.tga=31;01:*.xbm=31;01:*.xpm=31;01:*.tif=31;01:*.tiff=31;01:*.png=31;01:*.svg=31;01:*.svgz=31;01:*.mng=31;01:*.pcx=31;01:*.mov=31;01:*.mpg=31;01:*.mpeg=31;01:*.m2v=31;01:*.mkv=31;01:*.webm=31;01:*.ogm=31;01:*.mp4=31;01:*.m4v=31;01:*.mp4v=31;01:*.vob=31;01:*.qt=31;01:*.nuv=31;01:*.wmv=31;01:*.asf=31;01:*.rm=31;01:*.rmvb=31;01:*.flc=31;01:*.avi=31;01:*.fli=31;01:*.flv=31;01:*.gl=31;01:*.dl=31;01:*.xcf=31;01:*.xwd=31;01:*.yuv=31;01:*.cgm=31;01:*.emf=31;01:*.ogv=31;01:*.ogx=31;01:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+
+
+LS_COLORS='文件匹配符=字的底色;字的颜色:'
+ex=01;32:   变颜色为其他颜色    ex=01;37:
+
+
+
+
+LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=31;01:do=31;01:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;37:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=31;01:*.jpeg=31;01:*.mjpg=31;01:*.mjpeg=31;01:*.gif=31;01:*.bmp=31;01:*.pbm=31;01:*.pgm=31;01:*.ppm=31;01:*.tga=31;01:*.xbm=31;01:*.xpm=31;01:*.tif=31;01:*.tiff=31;01:*.png=31;01:*.svg=31;01:*.svgz=31;01:*.mng=31;01:*.pcx=31;01:*.mov=31;01:*.mpg=31;01:*.mpeg=31;01:*.m2v=31;01:*.mkv=31;01:*.webm=31;01:*.ogm=31;01:*.mp4=31;01:*.m4v=31;01:*.mp4v=31;01:*.vob=31;01:*.qt=31;01:*.nuv=31;01:*.wmv=31;01:*.asf=31;01:*.rm=31;01:*.rmvb=31;01:*.flc=31;01:*.avi=31;01:*.fli=31;01:*.flv=31;01:*.gl=31;01:*.dl=31;01:*.xcf=31;01:*.xwd=31;01:*.yuv=31;01:*.cgm=31;01:*.emf=31;01:*.ogv=31;01:*.ogx=31;01:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+
+
+
+
+
+字体格式;字体颜色;字背景颜色
+DIR 01;37;44
+
+
+
+字体格式列表
+0       重新设置属性到缺省设置 
+1       设置粗体 
+2       设置一半亮度（模拟彩色显示器的颜色） 
+4       设置下划线（模拟彩色显示器的颜色） 
+5       设置闪烁 
+7       设置反向图象 
+22      设置一般密度 
+24      关闭下划线 
+25      关闭闪烁 
+27      关闭反向图象 
+
+
+字体颜色列表:
+30      设置黑色前景 
+31      设置红色前景 
+32      设置绿色前景 
+33      设置棕色前景 
+34      设置蓝色前景 
+35      设置紫色前景 
+36      设置青色前景 
+37      设置白色前景 
+
+
+字背景颜色
+40      设置黑色背景 
+41      设置红色背景 
+42      设置绿色背景 
+43      设置棕色背景 
+44      设置蓝色背景 
+45      设置紫色背景 
+46      设置青色背景 
+47      设置白色背景 
+
+
+```
+
+### 无root权限安装 zsh
+```
+
+
+```
+
 
 
 # MacOS
