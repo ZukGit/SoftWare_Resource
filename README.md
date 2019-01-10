@@ -400,6 +400,158 @@ Server listening on 5201
 ```
 下载地址: 
 https://github.com/ZukGit/SoftWare_Resource/tree/master/Windows/
+
+
+
+
+## USB工具
+
+### usbview
+[<img src="./zimage/software_image/usb.jpg">](http://www.pc6.com/SoftView/SoftView_24606.html "GIt仓库")
+
+USBDeview可以列出当前连接到你的计算机上或者曾经连接到你的计算机上的所有 USB 设备。
+根据列出的设备的名称和描述，该软件能显示USB设备的串口号，设备添加的日期、生产日期以及最后连接电脑的日期以及其它信息。
+**软件下载地址：**
+http://www.pc6.com/SoftView/SoftView_24606.html
+
+
+### U盘被写保护解除工具
+```
+1. 使用 usboot 把U盘清零
+2. 使用 ChipGenius 查看U 盘生产厂
+3. 搜索U盘量产工具进行 低级格式化 (厂商不同 版本不同 都可能影响格式化)
+
+
+```
+#### usboot
+完全擦除U盘数据为0 内置MSDOS7.1 可把U盘做成启动盘
+
+[<img src="./zimage/software_image/usboot.jpg">](http://www.pc6.com/softview/SoftView_5044.html)
+
+
+**软件下载地址(git 收藏)：**
+http://www.pc6.com/softview/SoftView_5044.html
+
+
+#### ChipGenius
+ChipGenius是u盘主控芯片检测工具，可以查询U盘、MP3/MP4等Flash存储设备的主控芯片的所有信息，
+包括芯片厂商、芯片型号、相关在线资料、电力消耗等信息。当然也可以查询USB设备的VID/PID信息、设备名称、序列号、设备版本等等
+
+[<img src="./zimage/software_image/ChipGenius.jpg">](http://www.pc6.com/softview/SoftView_46264.html)
+**软件下载地址(git 收藏)：**
+http://www.pc6.com/softview/SoftView_46264.html
+
+
+#### 主控厂商: AlcorMicro 量产工具
+
+[<img src="./zimage/software_image/AlcorMicro.jpg">](https://github.com/ZukGit/SoftWare_Resource/tree/master/Windows)
+**软件下载地址(git 收藏)：**
+
+## PE工具
+```
+PE系统一般指Windows PE 
+Windows Preinstallation Environment（Windows PE），Windows预安装环境，是带有有限服务的最小Win32子系统
+Windows PE 不是设计为计算机上的主要操作系统，而是作为独立的预安装环境和其他安装程序和恢复技术
+Windows PE的作用是使用在大量的计算机安装（同规格之计算机），以达到快速且一致性的安装
+.第一，操作系统损坏无法进入的情况下启动硬盘上的Windows PE可以方便地修复
+Windows PE启动相当快捷，而且对启动环境要求不高；其功能几乎相当于安装了一个 Windows 的命令行版本。
+因此，对于个人计算机用户，只要将其写入U盘（或刻录在一张光碟上），便可放心地去解决初始化系统之类的问题
+```
+
+### 大白菜PE
+```
+大白菜超级U盘启动制作工具，是纯傻瓜式制作U盘启动功能的超级万能王 集成一键装机，硬盘数据恢复，密码破解，等等实用的程序
+
+```
+[<img src="./zimage/software_image/dabaicai.png">](http://www.pc6.com/softview/SoftView_51495.html)
+
+**软件下载地址：**
+http://www.pc6.com/softview/SoftView_51495.html
+http://www.winbaicai.com/
+
+### UltraISO软碟通
+```
+UltraISO，中文名软碟通，是一款功能强大而又方便实用的光盘映像文件制作/编辑/格式转换工具，
+它可以直接编辑光盘映像和从映像中直接提取文件，也可以从cd-rom制作光盘映像或者将硬盘上的文件制作成iso文件。
+同时，你也可以处理iso文件的启动信息，从而制作可引导光盘。
+
+
+```
+
+[<img src="./zimage/software_image/UltraISO.jpg">](http://www.pc6.com/softview/SoftView_67274.html)
+
+**软件下载地址：**
+http://www.pc6.com/softview/SoftView_67274.html
+
+
+### EasyBCD
+```
+EasyBCD(系统引导修复工具)
+直接从镜像文件启动电脑
+
+
+```
+
+[<img src="./zimage/software_image/EasyBCD.jpg">](http://www.pc6.com/softview/SoftView_53180.html)
+
+**软件下载地址：**
+http://www.pc6.com/softview/SoftView_53180.html
+
+## 安装Linux系统
+
+### 安装 Deepin-Linux 系统
+
+```
+Deepin 官网:                  https://www.deepin.org/
+Deepin iso镜像下载地址:        https://www.deepin.org/download/
+制作安装Deepin系统安装U盘工具 deepin-boot-maker.exe  http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-boot-maker.exe
+
+```
+####  deepin-boot-maker
+[<img src="./zimage/software_image/deepin.jpg">](http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-boot-maker.exe)
+
+```
+使用教程:
+1. 下载 deepin.iso 镜像文件 ( 2.5GB )  https://www.deepin.org/download/
+2.  下载 deepin-boot-maker.exe  制作安装Deepin系统安装U盘工具
+3.  插入U盘 启动deepin-boot-maker.exe   选中 deepin.iso 镜像
+4.  在 电脑》管理》磁盘管理 中对磁盘进行新建卷  必须留两个空白磁盘 ，例如空白 E:  空白F: ,  这两个磁盘将会作为 Linux系统的挂载点 根目录/   和主目录 /home 的挂载点
+
+			挂载点	   挂载点中文名	     文件系统	      大小
+			/	       根分区（必选）	 EXT4（推荐）	最少10G
+			/home	   家目录（推荐）	 EXT4（推荐）	最少10G
+
+
+
+5.  电脑进入BIOS中  设置以 USB为启动盘
+6.  进入安装 Deepin系统 在Linux的安装磁盘中选择   空间较大的挂载 /home   选择空间较小的盘 加载系统根目录  /  并选中文件格式为  ext4
+7.  等待安装完成后重启电脑
+8.  此时可能会出现 grub error  no find file xxxx  此时参考
+    https://www.cnblogs.com/sting2me/p/4216935.html    Ubuntu 开机启动是出现 grub rescue 解决办法 输入如下命令 
+
+[1]. 先使用ls命令，找到Ubuntu的安装在哪个分区，ls会罗列所有的磁盘分区信息，比方说：
+【 前缀 grub rescue> 】  ls
+  (hd0),(hd0,msdos3),(hd0,msdos2),(hd0,msdos1)
+
+[2].然后依次调用如下命令： msdosX表示各个分区，注意 msdos 与 数字 之间没有空格！  
+   假设找到（hd0,msdos3）时，显示了文件夹中的文件，则表示 Linux 安装在这个分区
+【 前缀 grub rescue> 】 ls (hd0,msdosX)/boot/grub    
+   ...config  ....ipc  ....linux
+[3].假设找到（hd0,msdos3）时执行
+【 前缀 grub rescue> 】    rescue>set root=(hd0,msdos3)
+【 前缀 grub rescue> 】    rescue>set prefix=(hd0,msdos3)/boot/grub
+【 前缀 grub rescue> 】    rescue>insmod normal
+【 前缀 grub rescue> 】    normal              // 【开始进入Linux引导】
+
+[4]. 成功进入Linux 后执行 如下命令  完成 grub的修正 ， 重启测试是否已经恢复了grub的启动菜单 ， 如果跳过该步骤重启会再次进入grub
+   sudo update-grub
+   sudo grub-install /dev/sda                // sda 硬盘号码
+
+```
+
+**软件下载地址：**
+http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-boot-maker.exe
+
 ##  Other其他实用软件
 
 
@@ -458,13 +610,7 @@ http://www.pc6.com/softview/SoftView_569737.html
 https://guanjia.qq.com/product/zmzl/
 
 
-### usbview
-[<img src="./zimage/software_image/usb.jpg">](http://www.pc6.com/SoftView/SoftView_24606.html "GIt仓库")
 
-USBDeview可以列出当前连接到你的计算机上或者曾经连接到你的计算机上的所有 USB 设备。
-根据列出的设备的名称和描述，该软件能显示USB设备的串口号，设备添加的日期、生产日期以及最后连接电脑的日期以及其它信息。
-**软件下载地址：**
-http://www.pc6.com/SoftView/SoftView_24606.html
 
 
 ### deskpin
