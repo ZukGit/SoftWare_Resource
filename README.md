@@ -682,7 +682,7 @@ Cisco AnyConnect  是一款思科出品 VPN联网工具
 
 ## zsh
 
-### 最初主目录 ~列表
+###  最初主目录 ~列表
 ```
 pwd
 /home/zukgit
@@ -940,3 +940,99 @@ https://github.com/ZukGit/SoftWare_Resource/blob/master/Android/iperf/magic_iper
 
 ## 
 
+
+# Exploer 浏览器插件
+
+
+## CrxMouse.crx
+```
+CrxMouse 是一个在浏览器对鼠标进行设置的插件  可自定义手势 可自定义鼠标图案
+
+```
+<img src="./zimage/internet/crxmouse1.jpg" />
+<img src="./zimage/internet/crxmouse2.gif" />
+
+**软件下载地址：**
+git收藏
+https://github.com/ZukGit/SoftWare_Resource/blob/master/Internet/crxmouse_4.4.0.crx
+官网下载地址:  https://www.crx4chrome.com/extensions/jlgkpaicikihijadgifklkbpdajbkhjo/
+
+
+
+## BaiduExporter.crx
+```
+该插件与 软件 ARIA2 配合来下载  百度网盘文件，可提速 
+
+ARIA2地址：  https://aria2.github.io/
+https://github.com/aria2/aria2/releases/tag/release-1.34.0
+
+```
+<img src="./zimage/internet/baidu.jpg" />
+
+
+
+## Momentum_1.4.12
+```
+Momentum 是浏览器标签栏默认显示 美化插件
+
+
+
+```
+<img src="./zimage/internet/momentum.jpg" />
+
+git收藏地址：
+https://github.com/ZukGit/SoftWare_Resource/blob/master/Internet/Momentum_1.4.12.crx
+
+
+## tampermonkey
+```
+Tampermonkey 是一款免费的浏览器扩展和最为流行的用户脚本管理器
+
+可以根据您的喜好添加一些相当于扩展的功能脚本。
+脚本安装地址     https://greasyfork.org/zh-CN/scripts    打开即可寻找自己喜欢的脚本
+
+
+```
+
+###  百度网盘直接下载助手脚本
+[百度网盘直接下载助手 直链加速版](https://greasyfork.org/zh-CN/scripts/39504-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88)
+```
+百度网盘直接下载助手 直链加速版
+解除大文件下载限制
+支持多文件下载
+支持批量复制下载链接
+
+Tips1: 下载前请先登录百度网盘，否则无法获取链接。
+Tips2: 进程被限制的同学可以使用以下方法，可以尝试使用百度网盘体验提速功能来临时提高下载速度。
+1、下载百度网盘官方客户端，随便找个大文件点下载
+2、点“体验提速”。
+3、重新使用脚本获取链接下载。
+
+
+```
+<img src="./zimage/internet/tampermonkey1.jpg" />
+
+
+###  本地 YouTube 下载器脚本
+```
+本地 YouTube 下载器脚本
+下载地址：         https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader
+```
+<img src="./zimage/internet/tampermonkey2.jpg" />
+
+
+### 护眼脚本
+```
+护眼脚本
+下载地址：    https://greasyfork.org/zh-CN/scripts/14716-%E6%8A%A4%E7%9C%BC%E8%84%9A%E6%9C%AC
+```
+<img src="./zimage/internet/tampermonkey3.jpg" />
+
+### QQ音乐付费无损音乐免费下载脚本
+[QQ音乐付费无损音乐免费下载脚本](https://greasyfork.org/zh-CN/scripts/370308-qq%E9%9F%B3%E4%B9%90%E4%BB%98%E8%B4%B9%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD)
+```
+下载地址： https://greasyfork.org/zh-CN/scripts/370308-qq%E9%9F%B3%E4%B9%90%E4%BB%98%E8%B4%B9%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD
+QQ音乐无损 vip  高品质下载
+https://y.qq.com/
+
+``
