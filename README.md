@@ -1018,7 +1018,7 @@ Tips2: 进程被限制的同学可以使用以下方法，可以尝试使用百�
 本地 YouTube 下载器脚本
 下载地址：         https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader
 ```
-<img src="./zimage/internet/tampermonkey2.jpg" />
+<img src="./zimage/Internet/tampermonkey2.jpg" />
 
 
 ### 护眼脚本
