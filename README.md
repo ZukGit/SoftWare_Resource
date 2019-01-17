@@ -1032,6 +1032,7 @@ Tips2: 进程被限制的同学可以使用以下方法，可以尝试使用百�
 [QQ音乐付费无损音乐免费下载脚本](https://greasyfork.org/zh-CN/scripts/370308-qq%E9%9F%B3%E4%B9%90%E4%BB%98%E8%B4%B9%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD)
 ```
 下载地址： https://greasyfork.org/zh-CN/scripts/370308-qq%E9%9F%B3%E4%B9%90%E4%BB%98%E8%B4%B9%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD
+
 QQ音乐无损 vip  高品质下载
 https://y.qq.com/
 
