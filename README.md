@@ -674,8 +674,25 @@ Cisco AnyConnect  是一款思科出品 VPN联网工具
 # Linux
 
 
-## 
+## VPN
 
+### Electron-SSR
+```
+
+首先打开系统终端，输入命令 sudo apt install git 安装 Git
+
+继续在终端中使用 Git Clone 命令下载 SSRR git clone https://github.com/shadowsocksrr/shadowsocksr.git 
+请注意此处 git clone 保存的 SSRR 源码位置，默认存放于 /home/username/shadowsocksr
+
+下载 Electron-SSR，请根据自己的 Linux 发行版来选择，Debian 或 Ubuntu 选择 deb 包即可
+electron-ssr_0.2.4_amd64.deb
+https://storage.monocloud.co/client/Linux/electron-ssr_0.2.4_amd64.deb
+
+以上为我们提供的下载地址，如果你想要更多的下载选择，请移步 Github 的对应项目下载页：https://github.com/erguotou520/electron-ssr/releases
+
+最后在 Linux 系统网络设置  PAC 自动代理  
+```
+<img src="./zimage/software_image/ssrr_linux.jpg">
 
 ## 
 
@@ -891,9 +908,19 @@ make install
 
 
 
-## 
+## VPN
 
-
+### Shadowsocks
+```
+1. 下载 Shadowsocks 并打开运行 , git 收藏
+2. 登录Monocloud用户中心，点击您购买的对应套餐，选择查看节点信息
+3. 在节点信息页面可以看到您套餐内的各个节点信息，选择您想使用的节点，点击右上角的二维码图标
+4. 点击二维码图标后会显示出节点配置的二维码
+5. 在桌面右上角找到 Shadowsocks X图标 并单击。然后单击 从屏幕上扫描二维码 功能，并在弹出的确认对话框中点击确认。 扫描前请确保之前网页的二维码显示在当前桌面当中。
+6. 然后选择您想连接的服务器
+7. 最后点击 打开 Shadowsocks 按钮 
+```
+<img src="./zimage/software_image/shadowsocks_mac.jpg" hight="50%" width="50%">
 ## 
 
 
@@ -903,8 +930,14 @@ make install
 # IOS
 
 
-## 
+## VPN
+```
+1. 搜索 testflight  安装   在 appstore
+2. 安装 monoproxy 在  testflight 中
+3.  输入注册用户名与密码
 
+```
+<img src="./zimage/software_image/monoproxy_ios.jpg" hight="50%" width="50%">
 
 ## 
 
@@ -923,6 +956,15 @@ make install
 **软件下载地址：**
 https://github.com/xm19/v/blob/master/d.md
 git收藏
+
+
+### SSRR
+<img src="./zimage/software_image/ssrr.jpg" hight="50%" width="50%">
+**软件下载地址：**
+https://github.com/xm19/v/blob/master/d.md
+git收藏
+
+
 
 ## Tool
 
