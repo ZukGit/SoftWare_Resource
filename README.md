@@ -949,8 +949,8 @@ https://github.com/ZukGit/SoftWare_Resource/blob/master/Android/iperf/magic_iper
 CrxMouse 是一个在浏览器对鼠标进行设置的插件  可自定义手势 可自定义鼠标图案
 
 ```
-<img src="./zimage/internet/crxmouse1.jpg" />
-<img src="./zimage/internet/crxmouse2.gif" />
+<img src="./zimage/Internet/crxmouse1.jpg" />
+<img src="./zimage/Internet/crxmouse2.gif" />
 
 **软件下载地址：**
 git收藏
@@ -967,7 +967,7 @@ ARIA2地址：  https://aria2.github.io/
 https://github.com/aria2/aria2/releases/tag/release-1.34.0
 
 ```
-<img src="./zimage/internet/baidu.jpg" />
+<img src="./zimage/Internet/baidu.jpg" />
 
 
 
@@ -978,7 +978,7 @@ Momentum 是浏览器标签栏默认显示 美化插件
 
 
 ```
-<img src="./zimage/internet/momentum.jpg" />
+<img src="./zimage/Internet/momentum.jpg" />
 
 git收藏地址：
 https://github.com/ZukGit/SoftWare_Resource/blob/master/Internet/Momentum_1.4.12.crx
@@ -1010,7 +1010,7 @@ Tips2: 进程被限制的同学可以使用以下方法，可以尝试使用百�
 
 
 ```
-<img src="./zimage/internet/tampermonkey1.jpg" />
+<img src="./zimage/Internet/tampermonkey1.jpg" />
 
 
 ###  本地 YouTube 下载器脚本
@@ -1026,7 +1026,7 @@ Tips2: 进程被限制的同学可以使用以下方法，可以尝试使用百�
 护眼脚本
 下载地址：    https://greasyfork.org/zh-CN/scripts/14716-%E6%8A%A4%E7%9C%BC%E8%84%9A%E6%9C%AC
 ```
-<img src="./zimage/internet/tampermonkey3.jpg" />
+<img src="./zimage/Internet/tampermonkey3.jpg" />
 
 ### QQ音乐付费无损音乐免费下载脚本
 [QQ音乐付费无损音乐免费下载脚本](https://greasyfork.org/zh-CN/scripts/370308-qq%E9%9F%B3%E4%B9%90%E4%BB%98%E8%B4%B9%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD)
