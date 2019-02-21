@@ -980,6 +980,22 @@ Magiciperf 是一款在安卓手机端运行 测试 wifi吞吐率的APK 。 结�
 git收藏
 https://github.com/ZukGit/SoftWare_Resource/blob/master/Android/iperf/magic_iperf.apk
 
+
+### SecretCode
+```
+SecretCode 是一款显示手机暗码的软件 开源
+
+https://github.com/SimonMarquis/Android-SecretCodes
+
+```
+<img src="./zimage/software_image/secretcode.png" hight="50%" width="50%">
+**软件下载地址：**
+git收藏
+https://github.com/ZukGit/SoftWare_Resource/blob/master/Android/SecretCode/secretcodes.apk
+
+
+
+
 ## 
 
 
