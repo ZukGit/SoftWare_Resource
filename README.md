@@ -60,6 +60,70 @@ Eclipse 开放源代码的、基于 Java 的可扩展开发平台
 **下载地址:**
 https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2018-09/Ra/eclipse-inst-win64.exe
 
+---
+
+###  InteliJ
+intellij idea 2018是JetBrains公司旗下推出的一款java语言集成开发环境，是当下业内公认的最好用的java开发工具之一
+[<img src="./zimage/software_image/intelij.jpg">](http://www.cncrk.com/downinfo/236528.html "InteliJ")
+
+**下载地址:**
+http://www.cncrk.com/downinfo/236528.html
+
+**破解文件地址**
+git保存
+
+**破解详情**
+```
+1. 在 Intelij安装目录的bin 文件 C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.1\bin  复制 一个破解文件 JetbrainsCrack3.4.jar
+
+
+2. 修改 idea64.exe.vmoptions 末尾添加一行 JetbrainsCrack3.4.jar
+-Xms128m
+-Xmx750m
+-XX:ReservedCodeCacheSize=240m
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-ea
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.1\bin\JetbrainsCrack3.4.jar
+
+在末尾添加 破解文件 JetbrainsCrack3.4.jar  路径需要具体修改
+-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.1\bin\JetbrainsCrack3.4.jar
+
+
+3. 打开InteliJ 输入 Activate code 破解码
+
+
+ThisCrackLicenseId-{
+"licenseId":"ThisCrackLicenseId",
+"licenseeName":"Admin",
+"assigneeName":"",
+"assigneeEmail":"avxhm.se@gmail.com",
+"licenseRestriction":"Admin",
+"checkConcurrentUse":false,
+"products":[
+{"code":"II","paidUpTo":"2099-12-31"},
+{"code":"DM","paidUpTo":"2099-12-31"},
+{"code":"AC","paidUpTo":"2099-12-31"},
+{"code":"RS0","paidUpTo":"2099-12-31"},
+{"code":"WS","paidUpTo":"2099-12-31"},
+{"code":"DPN","paidUpTo":"2099-12-31"},
+{"code":"RC","paidUpTo":"2099-12-31"},
+{"code":"PS","paidUpTo":"2099-12-31"},
+{"code":"DC","paidUpTo":"2099-12-31"},
+{"code":"RM","paidUpTo":"2099-12-31"},
+{"code":"CL","paidUpTo":"2099-12-31"},
+{"code":"PC","paidUpTo":"2099-12-31"}
+],
+"hash":"2911276/0",
+"gracePeriodDays":7,
+"autoProlongated":false}
+
+```
+
 
 ---
 ###  WebStorm
@@ -78,7 +142,7 @@ https://www.jb51.net/softs/598714.html
 pycharm  是 python语言开发集成环境
 [<img src="./zimage/software_image/pycharm.jpg">](http://www.cncrk.com/downinfo/241055.html "pycharm下载")
 
-** pythonw环境下载 **
+**pythonw环境下载**
 Git保存 python-3.7.0-amd64.exe
 ```
  python-3.7.0-amd64.exe  安装首页 勾选  ADD To  PATH
