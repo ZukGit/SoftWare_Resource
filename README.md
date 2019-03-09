@@ -78,9 +78,19 @@ https://www.jb51.net/softs/598714.html
 pycharm  是 python语言开发集成环境
 [<img src="./zimage/software_image/pycharm.jpg">](http://www.cncrk.com/downinfo/241055.html "pycharm下载")
 
+** pythonw环境下载 **
+Git保存 python-3.7.0-amd64.exe
+```
+ python-3.7.0-amd64.exe  安装首页 勾选  ADD To  PATH
+
+```
+
 
 **下载地址:**
 http://www.cncrk.com/downinfo/241055.html
+
+
+
 **破解文件地址**
 Git保存
 ```
@@ -135,8 +145,12 @@ pycharm.pjb/pycharm-professional-2017/pycharm-professional-2017.3.4/bin/pycharm6
 "autoProlongated":false}
 
 ```
-
-
+**配置 Python Interpreter**
+```
+Setings  -> Project  Interpreter -> add(+)  local 
+添加安装到本地的 python.exe 可执行文件
+C:\Users\Administrator\AppData\Local\Programs\Python\Python37\python.exe
+```
 
 
 ### ADB工具
