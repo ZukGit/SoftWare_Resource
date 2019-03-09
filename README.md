@@ -81,6 +81,61 @@ pycharm  是 python语言开发集成环境
 
 **下载地址:**
 http://www.cncrk.com/downinfo/241055.html
+**破解文件地址**
+Git保存
+```
+修改下载包文件中的 运行配置文件
+pycharm.pjb/pycharm-professional-2017/pycharm-professional-2017.3.4/bin/pycharm.exe.vmoptions
+pycharm.pjb/pycharm-professional-2017/pycharm-professional-2017.3.4/bin/pycharm64.exe.vmoptions
+
+-Xms128m
+-Xmx750m
+-XX:ReservedCodeCacheSize=240m
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-ea
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+-javaagent:G:\software\pycharm.pjb\pycharm-professional-2017\pycharm-professional-2017.3.4\bin\JetbrainsCrack-2.8-release-enc.jar 
+
+
+添加破解文件的路径如下:
+-javaagent:G:\software\pycharm.pjb\pycharm-professional-2017\pycharm-professional-2017.3.4\bin\JetbrainsCrack-2.8-release-enc.jar 
+```
+
+**Activate codepo破解码**
+```
+{"licenseId":"ThisCrackLicenseId",
+"licenseeName":"随便填",
+"assigneeName":"随便填",
+"assigneeEmail":"邮箱，随便填",
+"licenseRestriction":"描述信息，随便填",
+"checkConcurrentUse":false,
+"products":[
+{"code":"II","paidUpTo":"2099-12-31"},
+{"code":"DM","paidUpTo":"2099-12-31"},
+{"code":"AC","paidUpTo":"2099-12-31"},
+{"code":"RS0","paidUpTo":"2099-12-31"},
+{"code":"WS","paidUpTo":"2099-12-31"},
+{"code":"DPN","paidUpTo":"2099-12-31"},
+{"code":"RC","paidUpTo":"2099-12-31"},
+{"code":"PS","paidUpTo":"2099-12-31"},
+{"code":"DC","paidUpTo":"2099-12-31"},
+{"code":"RM","paidUpTo":"2099-12-31"},
+{"code":"CL","paidUpTo":"2099-12-31"},
+{"code":"PC","paidUpTo":"2099-12-31"},
+{"code":"DB","paidUpTo":"2099-12-31"},
+{"code":"GO","paidUpTo":"2099-12-31"},
+{"code":"RD","paidUpTo":"2099-12-31"}
+],
+"hash":"2911276/0",
+"gracePeriodDays":7,
+"autoProlongated":false}
+
+```
+
 
 
 
