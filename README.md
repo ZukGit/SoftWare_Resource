@@ -353,6 +353,19 @@ http://www.haoxg.net/ediary/download.html
 **下载地址: **
 http://www.xue51.com/soft/8085.html
 
+
+
+### Hex_Editor
+```
+Hex Editor Neo 可以查看，修改，分析您的十六进制和二进制数据文件，编辑，与其他应用程序通过剪贴板，插入新的数据，
+交换数据和删除现有数据，以及执行其他编辑操作。
+
+  下载地址:  http://www.pc6.com/softview/SoftView_22215.html
+
+```
+[<img src="./zimage/software_image/hex.jpg">](http://www.pc6.com/softview/SoftView_22215.html"Hex_Editor下载")
+
+
 ## Environment环境配置
 
 
