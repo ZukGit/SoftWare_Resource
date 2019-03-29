@@ -1236,8 +1236,20 @@ https://github.com/ZukGit/SoftWare_Resource/blob/master/Android/SecretCode/secre
 
 
 
-## 
+## 输入法
 
+### 百度输入法皮肤_彩虹皮肤
+
+```
+(有时候搜不到 尼玛 保存起来)
+
+adb pull /sdcard/baidu/ime/skins          ## 拉取  皮肤
+
+adb push ./skins  /sdcard/baidu/ime/
+adb push ./caihong_skins  /sdcard/baidu/ime/     ## 把皮肤放入手机供APK使用
+
+```
+<img src="./zimage/software_image/caihong.jpg" />
 
 # Exploer 浏览器插件
 
