@@ -601,7 +601,18 @@ Server listening on 5201
 https://github.com/ZukGit/SoftWare_Resource/tree/master/Windows/
 
 
+## IOS工具软件
+```
+爱思助手
 
+　爱思助手是一款具有刷机、越狱、资料管理、应用游戏资源下载于一体的苹果设备管理工具，
+爱思助手可以免费为苹果用户提供百万正版苹果软件、热门游戏、苹果铃声、高清壁纸，免 AppIe ID 一键高速下载；
+更具有反激活、读设备开机密码、解除iPhone已停用、备份SHSH等强大苹果设备故障处理功能，是苹果玩家必备管理工具。
+
+http://www.pc6.com/softview/SoftView_81369.html
+
+```
+[<img src="./zimage/software_image/aisi.jpg">](http://www.pc6.com/softview/SoftView_81369.html)
 
 ## USB工具
 
@@ -751,6 +762,24 @@ Deepin iso镜像下载地址:        https://www.deepin.org/download/
 **软件下载地址：**
 http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-boot-maker.exe
 
+
+
+## VPN软件
+
+###  MonoCloud
+MonoCloud 是一款VPN联网工具
+<img src="./zimage/software_image/monocloud.jpg">
+**软件下载地址：**
+**git收藏**
+
+###  Cisco AnyConnect 
+Cisco AnyConnect  是一款思科出品 VPN联网工具
+<img src="./zimage/software_image/anyconnect.jpg">
+**软件下载地址：**
+**git收藏**
+
+
+
 ##  Other其他实用软件
 
 
@@ -833,11 +862,8 @@ SpeedPan 是第三方百度网盘登录工具， 可屏蔽网速限制，但是�
 https://www.speedpan.com/
 
 
-###  MonoCloud
-MonoCloud 是一款VPN联网工具
-<img src="./zimage/software_image/monocloud.jpg">
-**软件下载地址：**
-**git收藏**
+
+
 
 
 ###  Dism++ 
@@ -863,11 +889,6 @@ https://www.mactype.net/
 
 
 
-###  Cisco AnyConnect 
-Cisco AnyConnect  是一款思科出品 VPN联网工具
-<img src="./zimage/software_image/anyconnect.jpg">
-**软件下载地址：**
-**git收藏**
 
 
 ## Virtual虚拟机
