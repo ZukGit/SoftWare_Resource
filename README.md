@@ -232,6 +232,59 @@ ADB_1_0_40_windows
 **下载地址:**
 git收藏
 
+
+## Shell工具
+
+### Cmder 
+```
+
+Cmder是一个Windows上命令行工具，
+
+下载地址:    http://www.pc6.com/softview/SoftView_540099.html
+
+
+　　cmder 功能极为强大，但从视窗画面上看不太出其强大实力，这里就先说下常用的功能：
+　　如图示编号的部分说明如下：
+1, Cmder常用快捷键
+　　利用Tab，自动路径补全；
+　　利用Ctrl+T建立新页签；利用Ctrl+W关闭页签;
+　　利用Ctrl+Tab切换页签;
+　　Alt+F4：关闭所有页签
+　　Alt+Shift+1：开启cmd.exe
+　　Alt+Shift+2：开启powershell.exe
+　　Alt+Shift+3：开启powershell.exe (系统管理员权限)
+　　Ctrl+1：快速切换到第1个页签
+　　Ctrl+n：快速切换到第n个页签( n值无上限)
+　　Alt + enter： 切换到全屏状态；
+　　Ctr+r 历史命令搜索
+2, 可在视窗内搜寻画面上出现过的任意关键字。
+3, 新增页签按钮。
+4, 切换页签按钮。
+5, 锁定视窗，让视窗无法再输入。
+6, 切换视窗是否提供卷轴功能，启动时可查询之前显示过的内容。
+7, 按下滑鼠左键可开启系统选单，滑鼠右键可开启工具选项视窗。 Win+Alt+P  ：开启工具选项视窗 设置
+
+
+每次进入到Cmder解压目录双击Cmder.exe打开的方式很麻烦，可以使用下面几种方式很好的解决问题；
+　　1、把 Cmder 加到环境变量
+　　把Cmder.exe存放的目录添加到系统环境变量；加完之后,Win+r一下输入cmder,即可。
+　　2、添加 cmder 到右键菜单添加后在任意文件夹中即可打开Cmder，上一步的把 Cmder 加到环境变量就是为此服务的, 在管理员权限的终端输入以下语句即可:
+　　Cmder.exe /REGISTER ALL                   // 右键菜单加入 cmder
+　　3、为Cmder.exe创建快捷方式，右击Cmder.exe选择“创建快捷方式”点击即可，以后打开Cmder.exe只要点击桌面对应的快捷方式即可
+
+
+
+```
+```
+Win+Alt+P   设置
+Main 》Size : 20
+Main 》Appearance 》 Scrollbar -> Hide
+Main 》Appearance 》 TitleBar -> Hide caption always
+
+
+```
+[<img src="./zimage/software_image/cmder.png">](http://www.pc6.com/softview/SoftView_540099.html "Cmder下载")
+
 ## Database数据库
 
 ###  SQLite Expert
@@ -299,6 +352,19 @@ http://www.haoxg.net/ediary/download.html
 <img src="./zimage/software_image/wunderlist.jpg">
 **下载地址: **
 http://www.xue51.com/soft/8085.html
+
+
+
+### Hex_Editor
+```
+Hex Editor Neo 可以查看，修改，分析您的十六进制和二进制数据文件，编辑，与其他应用程序通过剪贴板，插入新的数据，
+交换数据和删除现有数据，以及执行其他编辑操作。
+
+  下载地址:  http://www.pc6.com/softview/SoftView_22215.html
+
+```
+[<img src="./zimage/software_image/hex.jpg">](http://www.pc6.com/softview/SoftView_22215.html"Hex_Editor下载")
+
 
 ## Environment环境配置
 
@@ -535,7 +601,18 @@ Server listening on 5201
 https://github.com/ZukGit/SoftWare_Resource/tree/master/Windows/
 
 
+## IOS工具软件
+```
+爱思助手
 
+　爱思助手是一款具有刷机、越狱、资料管理、应用游戏资源下载于一体的苹果设备管理工具，
+爱思助手可以免费为苹果用户提供百万正版苹果软件、热门游戏、苹果铃声、高清壁纸，免 AppIe ID 一键高速下载；
+更具有反激活、读设备开机密码、解除iPhone已停用、备份SHSH等强大苹果设备故障处理功能，是苹果玩家必备管理工具。
+
+http://www.pc6.com/softview/SoftView_81369.html
+
+```
+[<img src="./zimage/software_image/aisi.jpg">](http://www.pc6.com/softview/SoftView_81369.html)
 
 ## USB工具
 
@@ -685,6 +762,24 @@ Deepin iso镜像下载地址:        https://www.deepin.org/download/
 **软件下载地址：**
 http://cdimage.deepin.com/applications/deepin-boot-maker/windows/deepin-boot-maker.exe
 
+
+
+## VPN软件
+
+###  MonoCloud
+MonoCloud 是一款VPN联网工具
+<img src="./zimage/software_image/monocloud.jpg">
+**软件下载地址：**
+**git收藏**
+
+###  Cisco AnyConnect 
+Cisco AnyConnect  是一款思科出品 VPN联网工具
+<img src="./zimage/software_image/anyconnect.jpg">
+**软件下载地址：**
+**git收藏**
+
+
+
 ##  Other其他实用软件
 
 
@@ -767,11 +862,8 @@ SpeedPan 是第三方百度网盘登录工具， 可屏蔽网速限制，但是�
 https://www.speedpan.com/
 
 
-###  MonoCloud
-MonoCloud 是一款VPN联网工具
-<img src="./zimage/software_image/monocloud.jpg">
-**软件下载地址：**
-**git收藏**
+
+
 
 
 ###  Dism++ 
@@ -797,9 +889,24 @@ https://www.mactype.net/
 
 
 
-###  Cisco AnyConnect 
-Cisco AnyConnect  是一款思科出品 VPN联网工具
-<img src="./zimage/software_image/anyconnect.jpg">
+
+
+## Virtual虚拟机
+
+### VMWare
+<img src="./zimage/software_image/vmware.jpg">
+```
+VMWare虚拟机软件是一个“虚拟PC”软件，它使你可以在一台机器上同时运行二个或更多Windows、DOS、LINUX系统。与“多启动”系统相比，
+VMWare采用了完全不同的概念。多启动系统在一个时刻只能运行一个系统，在系统切换时需要重新启动机器。
+
+VMware 12 专业版永久许可证密钥
+VMware Workstation v12 for Windows 
+5A02H-AU243-TZJ49-GTC7K-3C61N 
+VF5XA-FNDDJ-085GZ-4NXZ9-N20E6
+UC5MR-8NE16-H81WY-R7QGV-QG2D8
+ZG1WH-ATY96-H80QP-X7PEX-Y30V4
+AA3E0-0VDE1-0893Z-KGZ59-QGAVF
+```
 **软件下载地址：**
 **git收藏**
 
@@ -1129,8 +1236,20 @@ https://github.com/ZukGit/SoftWare_Resource/blob/master/Android/SecretCode/secre
 
 
 
-## 
+## 输入法
 
+### 百度输入法皮肤_彩虹皮肤
+
+```
+(有时候搜不到 尼玛 保存起来)
+
+adb pull /sdcard/baidu/ime/skins          ## 拉取  皮肤
+
+adb push ./skins  /sdcard/baidu/ime/
+adb push ./caihong_skins  /sdcard/baidu/ime/     ## 把皮肤放入手机供APK使用
+
+```
+<img src="./zimage/software_image/caihong.jpg" />
 
 # Exploer 浏览器插件
 
