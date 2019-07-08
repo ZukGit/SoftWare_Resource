@@ -25,6 +25,15 @@ JD-GUI中文破解版是一款功能强大的JAVA反编译工具,使用可帮助
 [<img src="./zimage/software_image/jdgui.jpg">](https://github.com/ZukGit/SoftWare_Resource/blob/master/Windows/Analysis%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6/jd-gui.zip "JD_GUI下载")
 
 
+### LoveString
+1、LoveString 软件转换结果使用十六进制表示，汉化、修改软件文字都方便很多
+2、LoveString 支持将文本字符串编码在Text、ANSI、Unicode、Unicode Big Endian、UTF-8、UTF-7 之间的互相转换
+
+
+[<img src="./zimage/software_image/LoveString.jpg">](https://www.jb51.net/softs/621119.html "LoveString下载")
+https://www.jb51.net/softs/621119.html
+Git收藏
+---
 
 ## Browser浏览器
 
@@ -285,6 +294,21 @@ Main 》Appearance 》 TitleBar -> Hide caption always
 ```
 [<img src="./zimage/software_image/cmder.png">](http://www.pc6.com/softview/SoftView_540099.html "Cmder下载")
 
+
+
+### Quicker
+Quicker能够通过鼠标中键来快速启动面板，可以为常用操作建立捷径，并且能够根据不同的软件实现不同的快捷切换面板更快，更方便，更简单，让效率触手可及！
+
+按击鼠标滚轮后 调出 Quicker的控制面板
+
+[<img src="./zimage/software_image/Quicker.jpg">](http://www.pc6.com/softview/SoftView_627218.html "Quicker")
+
+
+
+Git收藏
+---
+
+
 ## Database数据库
 
 ###  SQLite Expert
@@ -368,8 +392,41 @@ Hex Editor Neo 可以查看，修改，分析您的十六进制和二进制数�
 
 ## Environment环境配置
 
+### 快速环境编辑器（RapidEE）
+
+
+[<img src="./zimage/software_image/RapidEE.jpg">]( http://www.onlinedown.net/soft/570476.htm "快速环境编辑器")
+
+**下载地址: **
+http://www.onlinedown.net/soft/570476.htm
+Git已收藏
+---
+
 
 ## FileVersion_Manager文件版本管理
+
+### 卸载软件(GeekUninstaller)
+
+[<img src="./zimage/software_image/GeekUninstaller.jpg">]( http://www.pc6.com/softview/SoftView_67433.html "GeekUninstaller下载")
+
+**下载地址: **
+http://www.pc6.com/softview/SoftView_67433.html
+https://pc.qq.com/detail/8/detail_24068.html
+
+
+
+### FileLocator Pro
+文件搜索软件(Mythicsoft FileLocator Pro)
+
+[<img src="./zimage/software_image/FileLocator.jpg">]( http://www.pc6.com/softview/SoftView_56721.html "FileLocator ")
+
+**下载地址: **
+http://www.pc6.com/softview/SoftView_56721.html
+Git已收藏
+---
+
+
+
 
 ### Everything
 
@@ -475,7 +532,13 @@ http://www.pc6.com/softview/SoftView_28428.html
 
 ## Media多媒体
 
-### Image图片
+### 图像Image
+
+#### FSCapture90(滚动条滚动截屏)
+http://www.pc6.com/softview/SoftView_14254.html
+[<img src="./zimage/software_image/FSCapture90.gif">](http://www.pc6.com/softview/SoftView_14254.html "PC下载")
+Git已收藏
+
 
 
 ####  360浏览器自带截屏插件
